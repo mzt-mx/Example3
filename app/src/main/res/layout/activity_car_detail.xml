@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar_bg"
+        android:title="@string/toolbar_title_car_detail"
+        android:titleTextColor="@color/toolbar_title"
+        app:navigationIcon="@android:drawable/ic_menu_revert" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/car_item_margin"
+        android:layout_marginTop="@dimen/toolbar_height">
+
+        <ImageView
+            android:id="@+id/ivDetailImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/car_image_content_desc" />
+
+        <TextView
+            android:id="@+id/tvDetailBrandModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/car_brand_model"
+            android:textStyle="bold"
+            android:textSize="@dimen/car_title_text_size"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvDetailYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/car_year"
+            android:textSize="@dimen/car_subtitle_text_size"
+            android:layout_marginTop="@dimen/car_item_padding" />
+
+        <TextView
+            android:id="@+id/tvDetailDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/car_desc_toyota"
+            android:textSize="@dimen/car_subtitle_text_size"
+            android:layout_marginTop="@dimen/car_item_padding" />
+
+        <TextView
+            android:id="@+id/tvDetailCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/car_cost"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="@dimen/car_title_text_size"
+            android:layout_marginTop="@dimen/car_item_padding" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

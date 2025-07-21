@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="car_brand_toyota">Toyota</string>
+    <string name="car_brand_bmw">BMW</string>
+    <string name="car_brand_audi">Audi</string>
+    <string name="car_model_camry">Camry</string>
+    <string name="car_model_x5">X5</string>
+    <string name="car_model_a4">A4</string>
+    <string name="car_desc_toyota">Надёжный семейный седан с экономичным расходом топлива.</string>
+    <string name="car_desc_bmw">Внедорожник премиум-класса с мощным двигателем и комфортом.</string>
+    <string name="car_desc_audi">Стильный и динамичный седан для города и трассы.</string>
+    <string name="car_cost">Стоимость: %1$d ₽</string>
+    <string name="car_year">Год выпуска: %1$d</string>
+    <string name="toolbar_title_car_detail">Детали авто</string>
+    <string name="back">Назад</string>
+    <string name="car_brand_model">Марка и модель</string>
+    <string name="car_image_content_desc">Изображение автомобиля</string>
 </resources>
