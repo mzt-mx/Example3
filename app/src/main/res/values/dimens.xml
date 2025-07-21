@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="car_item_margin">16dp</dimen>
+    <dimen name="car_item_padding">12dp</dimen>
+    <dimen name="car_image_size">80dp</dimen>
+    <dimen name="car_title_text_size">18sp</dimen>
+    <dimen name="car_subtitle_text_size">14sp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+</resources>
+
