@@ -13,4 +13,6 @@
     <string name="car_year">Год выпуска: %1$d</string>
     <string name="toolbar_title_car_detail">Детали авто</string>
     <string name="back">Назад</string>
+    <string name="car_brand_model">Марка и модель</string>
+    <string name="car_image_content_desc">Изображение автомобиля</string>
 </resources>
